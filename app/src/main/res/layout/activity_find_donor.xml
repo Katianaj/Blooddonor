@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anonymous.blooddonor.Activities.FindDonorActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:background="@color/colorAccent"
+        android:layout_height="150dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:text="Which Blood Do you Need"
+            android:layout_height="wrap_content" />
+        <EditText
+          android:layout_width="match_parent"
+          android:layout_marginTop="80dp"
+          android:hint="Enter blood type"
+
+          android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:id="@+id/mFindDonorBtn"
+            android:background="@android:color/holo_red_dark"
+            android:text="Find Donor"
+             />
+
+</LinearLayout>
+
+
